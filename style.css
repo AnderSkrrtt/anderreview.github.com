@@ -5,7 +5,8 @@ body {
     background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
     background: linear-gradient(red, yellow); /* Standard syntax */
-    background-size: stretch;
+    background-height: 100%;
+    background-width:100%;
 }
 .fontsuur {
    font-family: "Roboto";
@@ -17,8 +18,8 @@ body {
 }
 .box {
    padding:10px;
-   border:10px;
-   margin:0px;
+   border:10px solid black;
+   margin:10px;
 
 
 
